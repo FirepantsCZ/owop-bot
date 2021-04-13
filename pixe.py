@@ -10,12 +10,19 @@ from PIL import Image
 from PyQt5 import QtWidgets, QtCore, QtWidgets
 #from PyQt5.QtWidgets import *
 
-i = json.loads(open("pixe.json", "r").read())[0].get("i")
-j = json.loads(open("pixe.json", "r").read())[0].get("j")
-print(i + " " + j)
-if i != 0 & j != 0:
-    print("reset a")
-
+loadi = int(json.loads(open("pixe.json", "r").read())[0].get("i"))
+loadj = int(json.loads(open("pixe.json", "r").read())[0].get("j"))
+print(str(loadi) + " " + str(loadj))
+if loadi != 0 or loadj != 0:
+    ans = input("Pokračovat? [Y/N]")
+    if ans == "Y" or ans == "y":
+        contmode = True
+    else:
+        contmode = False
+        loadi = 0
+        loadj = 0
+else:
+    contmode = False
 showmousepos = False
 scrollmode = True
 markMode = True
@@ -86,13 +93,14 @@ class App(PyQt5.QtWidgets.QWidget):
             global scrollmode
             global markMode
             global oldcol
+            global loadj
 
             if scrollmode:
-                keyboard.wait("s")
+                #keyboard.wait("s")
                 #keyboard.press_and_release("g")
-                keyboard.press("ctrl")
-                pyautogui.scroll(-13)
-                keyboard.release("ctrl")
+                #keyboard.press("ctrl")
+                #pyautogui.scroll(-13)
+                #keyboard.release("ctrl")
                 scrollmode = False
                 keyboard.wait("s")
 
@@ -120,11 +128,15 @@ class App(PyQt5.QtWidgets.QWidget):
                 imagewidth, imageheight = image.size
                 print(range(imageheight))
                 print(range(imagewidth))
-                vertpos = (marky + maxmarky) + 2
-                horpos = (markx + maxmarkx) + 2
-                for i in range(imageheight):
+                if contmode:
+                    vertpos = ((marky + maxmarky) + 2) + (loadi * 3)
+                    horpos = ((markx + maxmarkx) + 2) + (loadj * 3)
+                else:
+                    vertpos = (marky + maxmarky) + 2
+                    horpos = (markx + maxmarkx) + 2
+                for i in range(loadi, imageheight):
                     pyautogui.moveTo(horpos, vertpos)
-                    for j in range(imagewidth):
+                    for j in range(loadj, imagewidth):
                         currentMouseX, currentMouseY = pyautogui.position()
                         print(i, j)
                         r, g, b = image.getpixel((j, i))
@@ -145,7 +157,8 @@ class App(PyQt5.QtWidgets.QWidget):
                         print(jdump)
                         open("pixe.json", "w").write(json.dumps(jdump))
                         #time.sleep(0.5)
-
+                    loadj = 0
+                    horpos = (markx + maxmarkx) + 2
                     vertpos += 3
                 print("Finished drawing!")
                 sys.exit()
