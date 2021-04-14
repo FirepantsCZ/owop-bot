@@ -8,6 +8,11 @@ import keyboard
 import PyQt5
 from PIL import Image
 from PyQt5 import QtWidgets, QtCore, QtWidgets
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+driver = webdriver.Firefox()
+driver.get("https://ourworldofpixels.com/fuco")
+driver.find_element_by_xpath('//button[normalize-space()="OK"]').click()
 #from PyQt5.QtWidgets import *
 
 loadi = int(json.loads(open("pixe.json", "r").read())[0].get("i"))
@@ -27,6 +32,9 @@ showmousepos = False
 scrollmode = True
 markMode = True
 oldcol = ""
+oldr = ""
+oldg = ""
+oldb = ""
 
 screenWidth, screenHeight = pyautogui.size()
 
@@ -75,14 +83,14 @@ class App(PyQt5.QtWidgets.QWidget):
             else:
                 usersizewidth = int(input("Image width (owop pixels): "))
                 usersizeheight = int(input("Image height (owop pixels): "))
-                image.resize(usersizewidth, usersizeheight)                
+                image.resize(usersizewidth, usersizeheight)
         if image.size > (400, 300):
             print("image too larege, resizing!")
             crust = input("Udržet poměr stran? [Y/N]")
             if crust == "y" or crust == "Y":
                 new_image = image.thumbnail((400, 300))
             else:
-                new_image = image.resize((400,300))
+                new_image = image.resize((400, 300))
             new_image.save("botimage.png")
         else:
             print("image size smaller, not resizing...")
@@ -94,13 +102,16 @@ class App(PyQt5.QtWidgets.QWidget):
             global markMode
             global oldcol
             global loadj
+            global oldr
+            global oldg
+            global oldb
 
             if scrollmode:
-                #keyboard.wait("s")
-                #keyboard.press_and_release("g")
-                #keyboard.press("ctrl")
-                #pyautogui.scroll(-13)
-                #keyboard.release("ctrl")
+                # keyboard.wait("s")
+                # keyboard.press_and_release("g")
+                # keyboard.press("ctrl")
+                # pyautogui.scroll(-13)
+                # keyboard.release("ctrl")
                 scrollmode = False
                 keyboard.wait("s")
 
@@ -137,26 +148,39 @@ class App(PyQt5.QtWidgets.QWidget):
                 for i in range(loadi, imageheight):
                     pyautogui.moveTo(horpos, vertpos)
                     for j in range(loadj, imagewidth):
+                        reconnect = driver.find_element_by_id('load-options')
+                        vis = reconnect.get_attribute("class")
+                        print("Class is: " + vis)
+                        if vis == "framed":
+                            driver.find_element_by_id("reconnect-btn").click()                        
+                            time.sleep(1.5)
                         currentMouseX, currentMouseY = pyautogui.position()
                         print(i, j)
                         r, g, b = image.getpixel((j, i))
                         print(r + g + b)
                         hexcol = rgb2hex(r, g, b)
                         print(hexcol)
-                        if hexcol != oldcol:
+                        if r != oldr or g != oldg or b != oldb:
+                            script = "OWOP.player.selectedColor = [" + str(
+                                r) + ", " + str(g) + ", " + str(b) + "]"
+                            driver.execute_script(script)
+                        """if hexcol != oldcol:
                             keyboard.press_and_release("f")
                             time.sleep(0.08)
                             keyboard.write(hexcol)
                             #time.sleep(1)
                             keyboard.press_and_release("enter")
-                            #time.sleep(0.5)
+                            #time.sleep(0.5)"""
                         pyautogui.moveTo(currentMouseX + 3, currentMouseY)
                         pyautogui.click()
                         oldcol = hexcol
-                        jdump = [{ "i" : i, "j": j}]
+                        oldr = r
+                        oldg = g
+                        oldb = b
+                        jdump = [{"i": i, "j": j}]
                         print(jdump)
                         open("pixe.json", "w").write(json.dumps(jdump))
-                        #time.sleep(0.5)
+                        # time.sleep(0.5)
                     loadj = 0
                     horpos = (markx + maxmarkx) + 2
                     vertpos += 3
