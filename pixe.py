@@ -274,13 +274,20 @@ class App(PyQt5.QtWidgets.QWidget):
 
                         r, g, b = diff.getpixel((j,i))
                         brightness = r + g + b
-                        print("red: " + str(r))
+                        print(brightness)
+                        if brightness > 230:
+                            print("Pixel does not match!")
+                            script = "OWOP.player.selectedColor = [" + str(r2) + ", " + str(g2) + ", " + str(b2) + "]"
+                            driver.execute_script(script)
+                            pyautogui.moveTo(((markx + maxmarkx) + 5) + (j * 3), ((marky + maxmarky) + 2) + (i * 3))
+                            pyautogui.click()
+                        """print("red: " + str(r))
                         print("green: " + str(g))
                         print("blue: " + str(b))
-                        print(brightness)
                         print("red difference: " + str(rdif))
                         print("green difference: " + str(gdif))
-                        print("blue difference: " + str(bdif))
+                        print("blue difference: " + str(bdif))"""
+
                 diff.close()
                 image1.close()
                 image2.close()
