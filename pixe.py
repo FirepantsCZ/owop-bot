@@ -20,7 +20,7 @@ driver.maximize_window()
 driver.find_element_by_xpath('//button[normalize-space()="OK"]').click()
 driver.execute_script("OWOP.camera.zoom = 3")
 keyboard.press_and_release("o")
-#from PyQt5.QtWidgets import *
+# from PyQt5.QtWidgets import *
 
 loadi = int(json.loads(open("pixe.json", "r").read())[0].get("i"))
 loadj = int(json.loads(open("pixe.json", "r").read())[0].get("j"))
@@ -50,6 +50,7 @@ screenWidth, screenHeight = pyautogui.size()
 
 thresh = input("Repair difference threshold: ")
 
+
 def rgb2hex(r, g, b):
     return '#{:02x}{:02x}{:02x}'.format(r, g, b)
 
@@ -78,11 +79,11 @@ class App(PyQt5.QtWidgets.QWidget):
             if contmode:
                 fileName = lastfile
             else:
-		if useros != "Linux":
+                if useros != "Linux":
                     fileName = self.openFileNameDialog()
                     self.hide()
-		else:
-			fileName = input("Path to image: ")
+                else:
+                    fileName = input("Path to image: ")
             lastfile = fileName
             image = Image.open(fileName)
             print(image.size)
@@ -136,7 +137,7 @@ class App(PyQt5.QtWidgets.QWidget):
             # botimage.save("botimage.png")
             print(image.size)
             image.close()
-            #global lastfile
+            # global lastfile
             global scrollmode
             global markMode
             global oldcol
@@ -169,8 +170,8 @@ class App(PyQt5.QtWidgets.QWidget):
                 print("end at " + str(markx + maxmarkx) +
                       " " + str(marky + maxmarky))
                 print("moving mouse...")
-                #pyautogui.moveTo((markx + maxmarkx) + 2, (marky + maxmarky) + 2)
-                #pyautogui.moveTo(markx, marky)
+                # pyautogui.moveTo((markx + maxmarkx) + 2, (marky + maxmarky) + 2)
+                # pyautogui.moveTo(markx, marky)
                 # pyautogui.click()
                 markMode = False
                 image = Image.open("botimage.png")
@@ -202,8 +203,8 @@ class App(PyQt5.QtWidgets.QWidget):
                             time.sleep(1)
                             pyautogui.click()
                             print("clicked")
-                            #j -= 2
-                            #pyautogui.moveTo(currentMouseX - 6, currentMouseY)
+                            # j -= 2
+                            # pyautogui.moveTo(currentMouseX - 6, currentMouseY)
                         print(i, j)
                         r, g, b = image.getpixel((j, i))
                         print(r + g + b)
@@ -217,9 +218,9 @@ class App(PyQt5.QtWidgets.QWidget):
                             keyboard.press_and_release("f")
                             time.sleep(0.08)
                             keyboard.write(hexcol)
-                            #time.sleep(1)
+                            # time.sleep(1)
                             keyboard.press_and_release("enter")
-                            #time.sleep(0.5)"""
+                            # time.sleep(0.5)"""
                         pyautogui.moveTo(currentMouseX + 3, currentMouseY)
                         if vis == "framed":
                             try:
@@ -264,8 +265,8 @@ class App(PyQt5.QtWidgets.QWidget):
                     print(jdump)
                     open("pixe.json", "w").write(json.dumps(jdump))
                 print("Finished drawing!")
-                #print("Press s to capture differences")
-                #keyboard.wait("s")
+                # print("Press s to capture differences")
+                # keyboard.wait("s")
                 keyboard.press_and_release("g")
                 image2 = Image.open("botimage.png").convert("RGB")
                 image2width, image2height = image2.size
