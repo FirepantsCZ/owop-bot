@@ -13,7 +13,10 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 driver = webdriver.Firefox()
 driver.get("https://ourworldofpixels.com/fuco")
+driver.maximize_window()
 driver.find_element_by_xpath('//button[normalize-space()="OK"]').click()
+driver.execute_script("OWOP.camera.zoom = 3")
+keyboard.press_and_release("o")
 #from PyQt5.QtWidgets import *
 
 loadi = int(json.loads(open("pixe.json", "r").read())[0].get("i"))

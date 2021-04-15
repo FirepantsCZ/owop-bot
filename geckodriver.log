@@ -1458,3 +1458,129 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
 JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
 JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618468414085	geckodriver	INFO	Listening on 127.0.0.1:52630
+1618468417123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileKyYJGO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618468418653	Marionette	INFO	Listening on port 52638
+1618468419139	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618468499943	geckodriver	INFO	Listening on 127.0.0.1:52727
+1618468502982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilej72gDl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618468504557	Marionette	INFO	Listening on port 52736
+1618468505001	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618468580962	geckodriver	INFO	Listening on 127.0.0.1:52804
+1618468583960	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilewqKYgG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618468585611	Marionette	INFO	Listening on port 52812
+1618468585977	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618469532931	geckodriver	INFO	Listening on 127.0.0.1:52980
+1618469535928	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofile2pq1WN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618469537522	Marionette	INFO	Listening on port 52988
+1618469537944	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618469735576	geckodriver	INFO	Listening on 127.0.0.1:53080
+1618469738632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileZ2YYDC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618469740431	Marionette	INFO	Listening on port 53089
+1618469740651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618469780791	geckodriver	INFO	Listening on 127.0.0.1:53162
+1618469783830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileNDQqKW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618469785592	Marionette	INFO	Listening on port 53170
+1618469785847	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618470225400	geckodriver	INFO	Listening on 127.0.0.1:53293
+1618470228440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileLGWAlA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618470229962	Marionette	INFO	Listening on port 53301
+1618470230455	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618470298551	geckodriver	INFO	Listening on 127.0.0.1:53385
+1618470301591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofile6lfYFv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618470303540	Marionette	INFO	Listening on port 53395
+1618470303608	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618470336496	geckodriver	INFO	Listening on 127.0.0.1:53466
+1618470339533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileAkcnIx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618470341428	Marionette	INFO	Listening on port 53474
+1618470341547	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618470479679	geckodriver	INFO	Listening on 127.0.0.1:53582
+1618470482714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileszXOy6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618470484156	Marionette	INFO	Listening on port 53590
+1618470484232	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618470634103	geckodriver	INFO	Listening on 127.0.0.1:53677
+1618470637131	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilegqSvIV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618470638865	Marionette	INFO	Listening on port 53685
+1618470639151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618471239748	geckodriver	INFO	Listening on 127.0.0.1:53833
+1618471242771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileG4bAvf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618471244450	Marionette	INFO	Listening on port 53841
+1618471244791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618471293568	geckodriver	INFO	Listening on 127.0.0.1:53944
+1618471296607	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofile6TYt2j"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618471298115	Marionette	INFO	Listening on port 53953
+1618471298623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1618471345645	geckodriver	INFO	Listening on 127.0.0.1:54028
+1618471348686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilesmEEOm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618471350250	Marionette	INFO	Listening on port 54036
+1618471350702	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+1618472303289	geckodriver	INFO	Listening on 127.0.0.1:54185
+1618472306301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileYOThzK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618472307801	Marionette	INFO	Listening on port 54193
+1618472307818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618472397340	Marionette	INFO	Stopped listening on port 54193
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
