@@ -42,6 +42,7 @@ oldb = ""
 
 screenWidth, screenHeight = pyautogui.size()
 
+thresh = input("Repair difference threshold: ")
 
 def rgb2hex(r, g, b):
     return '#{:02x}{:02x}{:02x}'.format(r, g, b)
@@ -91,8 +92,10 @@ class App(PyQt5.QtWidgets.QWidget):
                             input("Image width (owop pixels): "))
                         usersizeheight = int(
                             input("Image height (owop pixels): "))
-                        image.resize(usersizewidth, usersizeheight)
+                        image.resize((usersizewidth, usersizeheight))
                     customsize = (usersizewidth, usersizeheight)
+                    image.save("botimage.png")
+
                 else:
                     customsize = "none"
                     image.save("botimage.png")
@@ -184,7 +187,7 @@ class App(PyQt5.QtWidgets.QWidget):
                         print("Class is: " + vis)
                         if vis == "framed":
                             driver.find_element_by_id("reconnect-btn").click()
-                            time.sleep(5)
+                            time.sleep(1.5)
                             pyautogui.click()
                             print("clicked")
                             time.sleep(1)
@@ -213,7 +216,7 @@ class App(PyQt5.QtWidgets.QWidget):
                             try:
                                 driver.find_element_by_id(
                                     "reconnect-btn").click()
-                                time.sleep(5)
+                                time.sleep(1.5)
                                 pyautogui.click()
                                 print("clicked")
                                 time.sleep(1)
@@ -226,7 +229,7 @@ class App(PyQt5.QtWidgets.QWidget):
                             try:
                                 driver.find_element_by_id(
                                     "reconnect-btn").click()
-                                time.sleep(5)
+                                time.sleep(1.5)
                                 pyautogui.click()
                                 print("clicked")
                                 time.sleep(1)
@@ -252,11 +255,12 @@ class App(PyQt5.QtWidgets.QWidget):
                     print(jdump)
                     open("pixe.json", "w").write(json.dumps(jdump))
                 print("Finished drawing!")
-                print("Press s to capture differences")
-                keyboard.wait("s")
+                #print("Press s to capture differences")
+                #keyboard.wait("s")
                 keyboard.press_and_release("g")
-                image1 = pyautogui.screenshot("finished.png", region=(markx + maxmarkx + 3, marky + maxmarky, imagewidth * 3, imageheight * 3)).convert("RGB").resize((10, 10))
                 image2 = Image.open("botimage.png").convert("RGB")
+                image2width, image2height = image2.size
+                image1 = pyautogui.screenshot("finished.png", region=(markx + maxmarkx + 3, marky + maxmarky, imagewidth * 3, imageheight * 3)).convert("RGB").resize((image2width, image2height))
                 print(image1.size)
                 print(image2.size)
                 diff = ImageChops.difference(image1, image2)
@@ -275,7 +279,7 @@ class App(PyQt5.QtWidgets.QWidget):
                         r, g, b = diff.getpixel((j,i))
                         brightness = r + g + b
                         print(brightness)
-                        if brightness > 230:
+                        if brightness > int(thresh):
                             print("Pixel does not match!")
                             script = "OWOP.player.selectedColor = [" + str(r2) + ", " + str(g2) + ", " + str(b2) + "]"
                             driver.execute_script(script)

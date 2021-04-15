@@ -1228,3 +1228,233 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
 JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
 JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618435287716	geckodriver	INFO	Listening on 127.0.0.1:59834
+1618435290751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileIDkcWE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618435292399	Marionette	INFO	Listening on port 59842
+1618435292765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1618435755341	geckodriver	INFO	Listening on 127.0.0.1:61098
+1618435758335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilePpuo5f"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618435761004	Marionette	INFO	Listening on port 61107
+1618435761453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618435840997	geckodriver	INFO	Listening on 127.0.0.1:61204
+1618435844036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilehnFobc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618435845616	Marionette	INFO	Listening on port 61212
+1618435846053	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618437441575	geckodriver	INFO	Listening on 127.0.0.1:59690
+1618437444608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileZCW512"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618437447962	Marionette	INFO	Listening on port 59698
+1618437448228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1618437520120	geckodriver	INFO	Listening on 127.0.0.1:59775
+1618437523159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileTdvfnF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618437525072	Marionette	INFO	Listening on port 59783
+1618437525176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618437558201	geckodriver	INFO	Listening on 127.0.0.1:59853
+1618437561242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileQCwsAf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618437562943	Marionette	INFO	Listening on port 59861
+1618437563256	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618437678358	geckodriver	INFO	Listening on 127.0.0.1:59958
+1618437681395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileU673Zy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618437682953	Marionette	INFO	Listening on port 59967
+1618437683409	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618442538755	geckodriver	INFO	Listening on 127.0.0.1:60430
+1618442541799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileKaWxsw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618442544751	Marionette	INFO	Listening on port 60438
+1618442544924	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+1618442755072	geckodriver	INFO	Listening on 127.0.0.1:60559
+1618442758111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileIJrVdZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618442759649	Marionette	INFO	Listening on port 60567
+1618442760124	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+1618443801939	geckodriver	INFO	Listening on 127.0.0.1:60758
+1618443804966	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileCvWnns"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618443807780	Marionette	INFO	Listening on port 60766
+1618443808092	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1618443892225	geckodriver	INFO	Listening on 127.0.0.1:60885
+1618443895265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileGR5gDg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618443896738	Marionette	INFO	Listening on port 60895
+1618443896782	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1618443924659	Marionette	INFO	Stopped listening on port 60895
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618444140627	geckodriver	INFO	Listening on 127.0.0.1:50327
+1618444144089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilequNzLm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618444147623	Marionette	INFO	Listening on port 50339
+1618444147720	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+1618444733570	geckodriver	INFO	Listening on 127.0.0.1:50496
+1618444736609	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofile8JemP3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618444738155	Marionette	INFO	Listening on port 50504
+1618444738622	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: null has no properties
+1618452169971	geckodriver	INFO	Listening on 127.0.0.1:51261
+1618452173011	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileYVyMaA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618452175529	Marionette	INFO	Listening on port 51272
+1618452175629	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+1618467079164	geckodriver	INFO	Listening on 127.0.0.1:52179
+1618467082180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilei5RcHS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618467085487	Marionette	INFO	Listening on port 52188
+1618467085896	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 8ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618467720730	geckodriver	INFO	Listening on 127.0.0.1:52386
+1618467723759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilex19xvZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618467725312	Marionette	INFO	Listening on port 52394
+1618467725777	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618468186120	geckodriver	INFO	Listening on 127.0.0.1:52515
+1618468189132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilemRTQom"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618468191975	Marionette	INFO	Listening on port 52523
+1618468192248	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
