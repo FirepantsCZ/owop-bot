@@ -22,6 +22,12 @@ driver.execute_script("OWOP.camera.zoom = 3")
 keyboard.press_and_release("o")
 # from PyQt5.QtWidgets import *
 
+
+try:
+    loadi = int(json.loads(open("pixe.json", "r").read())[0].get("i"))
+except:
+    open("pixe.json", "w").write(json.dumps([{"i": 0, "j": 0, "lastfile": "", "customsize": "none"}]))
+
 loadi = int(json.loads(open("pixe.json", "r").read())[0].get("i"))
 loadj = int(json.loads(open("pixe.json", "r").read())[0].get("j"))
 lastfile = json.loads(open("pixe.json", "r").read())[0].get("lastfile")

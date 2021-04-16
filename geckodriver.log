@@ -1584,3 +1584,113 @@ JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1618479651386	geckodriver	INFO	Listening on 127.0.0.1:50503
+1618479654416	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileS7bCSN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618479657393	Marionette	INFO	Listening on port 50512
+1618479657587	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618479708173	Marionette	INFO	Stopped listening on port 50512
+1618479715368	geckodriver	INFO	Listening on 127.0.0.1:50605
+1618479718407	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileVpG5Ki"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618479721420	Marionette	INFO	Listening on port 50613
+1618479721582	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618480189266	Marionette	INFO	Stopped listening on port 50613
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilebH9Q7a"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618480184066	Marionette	INFO	Listening on port 50816
+1618480184479	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1618482937726	Marionette	INFO	Stopped listening on port 50816
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618482942153	geckodriver	INFO	Listening on 127.0.0.1:51105
+1618482945212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileJuQYWb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618482948337	Marionette	INFO	Listening on port 51113
+1618482948389	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: this.view is null
+1618491118321	Marionette	INFO	Stopped listening on port 51113
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618507683647	geckodriver	INFO	Listening on 127.0.0.1:50322
+1618507686682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileEEcd3b"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618507689916	Marionette	INFO	Listening on port 50331
+1618507690356	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+1618509546162	geckodriver	INFO	Listening on 127.0.0.1:51182
+1618509549209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileOCUuCb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618509554099	Marionette	INFO	Listening on port 51196
+1618509554549	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: , line 0: NetworkError: A network error occurred.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofile40qKFV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618509741297	Marionette	INFO	Listening on port 51353
+1618509741421	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618510520680	geckodriver	INFO	Listening on 127.0.0.1:51617
+1618510523753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileuP4Vey"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618510528461	Marionette	INFO	Listening on port 51626
+1618510528570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofile7vxpqf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618510580258	Marionette	INFO	Listening on port 51718
+1618510580368	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileKxmovQ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618510834991	Marionette	INFO	Listening on port 51831
+1618510835136	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1618510868116	Marionette	INFO	Stopped listening on port 51831
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618510879272	geckodriver	INFO	Listening on 127.0.0.1:51916
+1618510882304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilepCFJyy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618510885950	Marionette	INFO	Listening on port 51924
+1618510886022	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1618510898838	Marionette	INFO	Stopped listening on port 51924
