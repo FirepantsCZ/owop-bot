@@ -181,7 +181,7 @@ class App(PyQt5.QtWidgets.QWidget):
                 # pyautogui.click()
                 markMode = False
                 image = Image.open("botimage.png")
-                image = image.convert('RGB')
+                image = image.convert('RGBA')
                 imagewidth, imageheight = image.size
                 print(range(imageheight))
                 print(range(imagewidth))
@@ -212,22 +212,26 @@ class App(PyQt5.QtWidgets.QWidget):
                             # j -= 2
                             # pyautogui.moveTo(currentMouseX - 6, currentMouseY)
                         print(i, j)
-                        r, g, b = image.getpixel((j, i))
-                        print(r + g + b)
+                        r, g, b, a = image.getpixel((j, i))
+                        print(image.getpixel((j, i)))
                         hexcol = rgb2hex(r, g, b)
                         print(hexcol)
+                        if a == 0:
+                            j += 1
+                            continue
                         if r != oldr or g != oldg or b != oldb:
                             script = "OWOP.player.selectedColor = [" + str(
                                 r) + ", " + str(g) + ", " + str(b) + "]"
                             driver.execute_script(script)
+
                         """if hexcol != oldcol:
                             keyboard.press_and_release("f")
                             time.sleep(0.08)
                             keyboard.write(hexcol)
                             # time.sleep(1)
                             keyboard.press_and_release("enter")
-                            # time.sleep(0.5)"""
-                        pyautogui.moveTo(currentMouseX + 3, currentMouseY)
+                            # time.sleep(0.5)"""              #5
+                        pyautogui.moveTo(((markx + maxmarkx) + 2) + (j * 3), ((marky + maxmarky) + 2) + (i * 3))
                         if vis == "framed":
                             try:
                                 driver.find_element_by_id(
@@ -274,9 +278,9 @@ class App(PyQt5.QtWidgets.QWidget):
                 # print("Press s to capture differences")
                 # keyboard.wait("s")
                 keyboard.press_and_release("g")
-                image2 = Image.open("botimage.png").convert("RGB")
+                image2 = Image.open("botimage.png").convert("RGBA")
                 image2width, image2height = image2.size
-                image1 = pyautogui.screenshot("finished.png", region=(markx + maxmarkx + 3, marky + maxmarky, imagewidth * 3, imageheight * 3)).convert("RGB").resize((image2width, image2height))
+                image1 = pyautogui.screenshot("finished.png", region=(markx + maxmarkx + 3, marky + maxmarky, imagewidth * 3, imageheight * 3)).convert("RGBA").resize((image2width, image2height))
                 print(image1.size)
                 print(image2.size)
                 diff = ImageChops.difference(image1, image2)
@@ -286,8 +290,8 @@ class App(PyQt5.QtWidgets.QWidget):
                 for i in range(compheight):
                     for j in range(compwidth):
                         print(str(i) + " " + str(j))
-                        r1, g1, b1 = image1.getpixel((j,i))
-                        r2, g2, b2 = image2.getpixel((j,i))
+                        r1, g1, b1, a1 = image1.getpixel((j,i))
+                        r2, g2, b2, a2 = image2.getpixel((j,i))
                         rdif = abs(r1 - r2)
                         gdif = abs(g1 - g2)
                         bdif = abs(b1 - b2)

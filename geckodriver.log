@@ -1642,8 +1642,11 @@ JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, li
 JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NetworkError: A network error occurred.
-1618509546162	geckodriver	INFO	Listening on 127.0.0.1:51182
-1618509549209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileOCUuCb"
+1618511551187	Marionette	INFO	Stopped listening on port 50331
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileOCUuCb"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1618509554099	Marionette	INFO	Listening on port 51196
 1618509554549	Marionette	WARN	TLS certificate errors will be ignored for this session
@@ -1651,9 +1654,14 @@ JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Suc
 JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
 JavaScript error: , line 0: NetworkError: A network error occurred.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofile40qKFV"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1618509741297	Marionette	INFO	Listening on port 51353
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1618511543675	Marionette	INFO	Stopped listening on port 51196
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+tte	INFO	Listening on port 51353
 1618509741421	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
@@ -1661,22 +1669,36 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
 JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1618510520680	geckodriver	INFO	Listening on 127.0.0.1:51617
-1618510523753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileuP4Vey"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618511549420	Marionette	INFO	Stopped listening on port 51353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+zprofileuP4Vey"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1618510528461	Marionette	INFO	Listening on port 51626
 1618510528570	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
 JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofile7vxpqf"
+1618511546694	Marionette	INFO	Stopped listening on port 51626
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofile7vxpqf"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1618510580258	Marionette	INFO	Listening on port 51718
 1618510580368	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
 JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileKxmovQ"
+1618511544937	Marionette	INFO	Stopped listening on port 51718
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofileKxmovQ"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1618510834991	Marionette	INFO	Listening on port 51831
 1618510835136	Marionette	WARN	TLS certificate errors will be ignored for this session
@@ -1694,3 +1716,141 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
 JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
 1618510898838	Marionette	INFO	Stopped listening on port 51924
+1618558709530	geckodriver	INFO	Listening on 127.0.0.1:61789
+1618558712586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileiyyF6I"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618558717075	Marionette	INFO	Listening on port 61797
+1618558717399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Parent 18096, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1618559569077	Marionette	INFO	Stopped listening on port 61797
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+known module)"))
+1618559127078	Marionette	INFO	Listening on port 61994
+1618559127195	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1618559572299	Marionette	INFO	Stopped listening on port 61994
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilev1QwYU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618559378276	Marionette	INFO	Listening on port 62117
+1618559378642	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618559570004	Marionette	INFO	Stopped listening on port 62117
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+zprofilePzVpNP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618559479568	Marionette	INFO	Listening on port 62207
+1618559479666	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618559571171	Marionette	INFO	Stopped listening on port 62207
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618559726122	geckodriver	INFO	Listening on 127.0.0.1:62334
+1618559729154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofiles7po06"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618559732872	Marionette	INFO	Listening on port 62343
+1618559733356	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618576718075	Marionette	INFO	Stopped listening on port 62343
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileKR8xwS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618576102061	Marionette	INFO	Listening on port 64135
+1618576102196	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 13ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://ourworldofpixels.com/app.ab349cb98da11853b5e2.js, line 1: TypeError: k.devChat is null
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618576713961	Marionette	INFO	Stopped listening on port 64135
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofile2u6JWV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618576356792	Marionette	INFO	Listening on port 64453
+1618576357039	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://static.arc.io/widget/js/core.js?80b2d4e, line 1: Error: connection error to wss://tracker.arc.io/announce
+1618576716815	Marionette	INFO	Stopped listening on port 64453
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618576976459	geckodriver	INFO	Listening on 127.0.0.1:64705
+1618576979509	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofileQhUOIK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618576984296	Marionette	INFO	Listening on port 64713
+1618576984335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618577129583	Marionette	INFO	Stopped listening on port 64713
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+("", "(unknown module)"))
+1618577106648	Marionette	INFO	Listening on port 64814
+1618577106965	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1618577129297	Marionette	INFO	Stopped listening on port 64811618577130961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\paolo\\AppData\\Local\\Temp\\rust_mozprofilefPaoDo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618577134954	Marionette	INFO	Listening on port 64895
+1618577135158	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618577547179	Marionette	INFO	Stopped listening on port 64895
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+c.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
