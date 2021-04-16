@@ -1854,3 +1854,5 @@ JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, li
 
 c.arc.io/widget/js/core.js?80b2d4e, line 0: Successfully compiled asm.js code (total compilation time 3ms)
 JavaScript warning: https://static.arc.io/broker/js/lazy-modules.c61ab2d8.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: , line 0: NetworkError: A network error occurred.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
