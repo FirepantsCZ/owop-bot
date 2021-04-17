@@ -316,9 +316,9 @@ class App(PyQt5.QtWidgets.QWidget):
                             script = "OWOP.player.selectedColor = [" + str(
                                 r2) + ", " + str(g2) + ", " + str(b2) + "]"
                             driver.execute_script(script)
-                            pyautogui.moveTo(
+                            pyautogui.click(
                                 ((markx + maxmarkx) + 2) + (j * 3), ((marky + maxmarky) + 2) + (i * 3))
-                            pyautogui.click()
+                            #pyautogui.click()
                         """print("red: " + str(r))
                         print("green: " + str(g))
                         print("blue: " + str(b))
