@@ -20,13 +20,15 @@ driver.maximize_window()
 driver.find_element_by_xpath('//button[normalize-space()="OK"]').click()
 driver.execute_script("OWOP.camera.zoom = 3")
 keyboard.press_and_release("o")
+keyboard.press_and_release("g")
 # from PyQt5.QtWidgets import *
 
 
 try:
     loadi = int(json.loads(open("pixe.json", "r").read())[0].get("i"))
 except:
-    open("pixe.json", "w").write(json.dumps([{"i": 0, "j": 0, "lastfile": "", "customsize": "none"}]))
+    open("pixe.json", "w").write(json.dumps(
+        [{"i": 0, "j": 0, "lastfile": "", "customsize": "none"}]))
 
 loadi = int(json.loads(open("pixe.json", "r").read())[0].get("i"))
 loadj = int(json.loads(open("pixe.json", "r").read())[0].get("j"))
@@ -192,6 +194,7 @@ class App(PyQt5.QtWidgets.QWidget):
                     vertpos = (marky + maxmarky) + 2
                     horpos = (markx + maxmarkx) + 2
                 i = loadi
+                tic = time.perf_counter()
                 for i in range(loadi, imageheight):
                     pyautogui.moveTo(horpos, vertpos)
                     j = loadj
@@ -230,8 +233,8 @@ class App(PyQt5.QtWidgets.QWidget):
                             keyboard.write(hexcol)
                             # time.sleep(1)
                             keyboard.press_and_release("enter")
-                            # time.sleep(0.5)"""              #5
-                        pyautogui.moveTo(((markx + maxmarkx) + 2) + (j * 3), ((marky + maxmarky) + 2) + (i * 3))
+                            # time.sleep(0.5)"""  # 5
+                        pyautogui.click(((markx + maxmarkx) + 2) + (j * 3), ((marky + maxmarky) + 2) + (i * 3))
                         if vis == "framed":
                             try:
                                 driver.find_element_by_id(
@@ -244,7 +247,7 @@ class App(PyQt5.QtWidgets.QWidget):
                                 print("clicked")
                             except:
                                 print("button not on screen")
-                        pyautogui.click()
+                        #pyautogui.click()
                         if vis == "framed":
                             try:
                                 driver.find_element_by_id(
@@ -274,36 +277,47 @@ class App(PyQt5.QtWidgets.QWidget):
                               "customsize": customsize}]
                     print(jdump)
                     open("pixe.json", "w").write(json.dumps(jdump))
-                print("Finished drawing!")
+                    toc = time.perf_counter()
+                print(f"Finished drawing in {toc - tic:0.4f} seconds")
+                #print("Finished drawing!")
                 # print("Press s to capture differences")
                 # keyboard.wait("s")
-                keyboard.press_and_release("g")
+                #keyboard.press_and_release("g")
                 image2 = Image.open("botimage.png").convert("RGBA")
                 image2width, image2height = image2.size
-                image1 = pyautogui.screenshot("finished.png", region=(markx + maxmarkx + 3, marky + maxmarky, imagewidth * 3, imageheight * 3)).convert("RGBA").resize((image2width, image2height))
+                image1 = pyautogui.screenshot("finished.png", region=(
+                    markx + maxmarkx, marky + maxmarky, imagewidth * 3, imageheight * 3)).convert("RGB").resize((image2width, image2height))
                 print(image1.size)
                 print(image2.size)
+                background = Image.new('RGBA', image2.size, (255,255,255))
+                foo = Image.alpha_composite(background, image2)
+                foo = foo.convert("RGB")
+                foo.save('foo.png', 'PNG', quality=100)
+                image2 = foo
                 diff = ImageChops.difference(image1, image2)
                 diff.save("diff.png")
                 print(diff.mode)
                 compwidth, compheight = image1.size
+                tic = time.perf_counter()
                 for i in range(compheight):
                     for j in range(compwidth):
                         print(str(i) + " " + str(j))
-                        r1, g1, b1, a1 = image1.getpixel((j,i))
-                        r2, g2, b2, a2 = image2.getpixel((j,i))
+                        r1, g1, b1 = image1.getpixel((j, i))
+                        r2, g2, b2 = image2.getpixel((j, i))
                         rdif = abs(r1 - r2)
                         gdif = abs(g1 - g2)
                         bdif = abs(b1 - b2)
 
-                        r, g, b = diff.getpixel((j,i))
+                        r, g, b = diff.getpixel((j, i))
                         brightness = r + g + b
                         print(brightness)
                         if brightness > int(thresh):
                             print("Pixel does not match!")
-                            script = "OWOP.player.selectedColor = [" + str(r2) + ", " + str(g2) + ", " + str(b2) + "]"
+                            script = "OWOP.player.selectedColor = [" + str(
+                                r2) + ", " + str(g2) + ", " + str(b2) + "]"
                             driver.execute_script(script)
-                            pyautogui.moveTo(((markx + maxmarkx) + 5) + (j * 3), ((marky + maxmarky) + 2) + (i * 3))
+                            pyautogui.moveTo(
+                                ((markx + maxmarkx) + 2) + (j * 3), ((marky + maxmarky) + 2) + (i * 3))
                             pyautogui.click()
                         """print("red: " + str(r))
                         print("green: " + str(g))
@@ -311,7 +325,8 @@ class App(PyQt5.QtWidgets.QWidget):
                         print("red difference: " + str(rdif))
                         print("green difference: " + str(gdif))
                         print("blue difference: " + str(bdif))"""
-
+                toc = time.perf_counter()
+                print(f"Finished repairing in {toc - tic:0.4f} seconds")
                 diff.close()
                 image1.close()
                 image2.close()
