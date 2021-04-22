@@ -13,6 +13,8 @@ from PyQt5 import QtWidgets, QtCore, QtWidgets
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+pyautogui.PAUSE = 0
+
 useros = platform.system()
 driver = webdriver.Firefox()
 driver.get("https://ourworldofpixels.com/fuco")
@@ -207,6 +209,7 @@ class App(PyQt5.QtWidgets.QWidget):
                         if vis == "framed":
                             driver.find_element_by_id("reconnect-btn").click()
                             time.sleep(1.5)
+                            keyboard.press_and_release("f1")
                             pyautogui.click()
                             print("clicked")
                             time.sleep(1)
@@ -240,6 +243,7 @@ class App(PyQt5.QtWidgets.QWidget):
                                 driver.find_element_by_id(
                                     "reconnect-btn").click()
                                 time.sleep(1.5)
+                                keyboard.press_and_release("f1")
                                 pyautogui.click()
                                 print("clicked")
                                 time.sleep(1)
@@ -253,6 +257,7 @@ class App(PyQt5.QtWidgets.QWidget):
                                 driver.find_element_by_id(
                                     "reconnect-btn").click()
                                 time.sleep(1.5)
+                                keyboard.press_and_release("f1")
                                 pyautogui.click()
                                 print("clicked")
                                 time.sleep(1)
